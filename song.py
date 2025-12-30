@@ -4,6 +4,8 @@ import pygame
 import os
 import platform
 
+sys.stdout.reconfigure(encoding='utf-8')
+
 def cls_terminal():
     if platform.system() == "Windows":
         os.system("cls") 
